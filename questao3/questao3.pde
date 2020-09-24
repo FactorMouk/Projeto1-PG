@@ -90,7 +90,8 @@ class Spiral {
    }
    
    void display() {
-     ellipse(particlePosition[0], particlePosition[1], 5, 5);
+     fill(0, 0, 255);
+     ellipse(particlePosition[0], particlePosition[1], 10, 10);
    }
   
 }
