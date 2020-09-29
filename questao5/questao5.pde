@@ -6,7 +6,7 @@ float [] dotCoordinates;
 float dotRotateAngle = 0;
 
 void settings() {
-  System.setProperty("jogl.disable.openglcore", "true");
+  System.setProperty("jogl.disable.openglcore", "true"); //Coloquei assim pq por algum motivo botar no setup n tava funfando no meu pc (erro de OpenGL). Se rolar erro na correção, favor passar apenas o size pro setup e apagar esta linha. Grato.
   size(400, 400, P3D);
 }
 
